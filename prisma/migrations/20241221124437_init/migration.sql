@@ -75,4 +75,4 @@ CREATE UNIQUE INDEX "footer_links_url_key" ON "footer_links"("url");
 CREATE INDEX "footer_links_url_idx" ON "footer_links"("url");
 
 -- AddForeignKey
-ALTER TABLE "websites" ADD CONSTRAINT "websites_category_id_fkey" FOREIGN KEY ("category_id") REFERENCES "categories"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+--ALTER TABLE "websites" ADD CONSTRAINT "websites_category_id_fkey" FOREIGN KEY ("category_id") REFERENCES "categories"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
